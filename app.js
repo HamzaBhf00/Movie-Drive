@@ -4,7 +4,7 @@ const episodesNumber = document.querySelector('#episodesNumber');
 async function getData() {
     try {
         
-        const response = await fetch('http://localhost:3000/');
+        const response = await fetch('http://localhost:4000/');
         const data = await response.json();
         const series = data.series[0]
 

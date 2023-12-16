@@ -4,7 +4,7 @@
   "description": "Fetching and Displaying Movie Metadata from Google Drive",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon backend"
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "",

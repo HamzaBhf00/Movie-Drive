@@ -5,7 +5,7 @@ const cors = require('cors');
 const fetch = require('node-fetch');
 
 const corsOptions = {
-    origin: 'https://movie-drive.netlify.app/',
+    origin: 'http://127.0.0.1:5500',
     optionsSuccessStatus: 200,
 }
 
